@@ -7,16 +7,18 @@ import Feventhandler from './Feventhandler';
 import Ceventhandler from './Ceventhandler';
 import Renderlists from './Renderlists';
 import Todolist from './Todolist';
+import Lifecyclehooks from './Lifecyclehooks';
+import Ajaxdemo from './Ajaxdemo';
  */
 import reportWebVitals from './reportWebVitals';
-import Lifecyclehooks from './Lifecyclehooks';
+import Form from './Form';
 
 
 
 
 ReactDOM.render(
   <React.StrictMode>
-    <Lifecyclehooks />
+    <Form />
   </React.StrictMode>,
   document.getElementById('root')
 );
