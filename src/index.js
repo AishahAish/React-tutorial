@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-/* import App from './App';
+/*
 import Counter from './Counter';
 import Feventhandler from './Feventhandler';
 import Ceventhandler from './Ceventhandler';
@@ -9,16 +9,18 @@ import Renderlists from './Renderlists';
 import Todolist from './Todolist';
 import Lifecyclehooks from './Lifecyclehooks';
 import Ajaxdemo from './Ajaxdemo';
- */
-import reportWebVitals from './reportWebVitals';
 import Form from './Form';
+ */
+
+import reportWebVitals from './reportWebVitals';
+import App from './App';
 
 
 
 
 ReactDOM.render(
   <React.StrictMode>
-    <Form />
+    <App />
   </React.StrictMode>,
   document.getElementById('root')
 );
